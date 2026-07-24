@@ -33,7 +33,6 @@ export const siteConfig = {
 
 export const navLinks = [
   { href: "/", label: "Home" },
-  { href: "/kitchens", label: "Kitchens" },
   { href: "/kitchen-design", label: "Kitchen Design" },
   { href: "/kitchen-supply", label: "Kitchen Supply" },
   { href: "/kitchen-installation", label: "Kitchen Installation" },
