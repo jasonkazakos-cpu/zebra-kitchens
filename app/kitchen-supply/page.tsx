@@ -10,6 +10,7 @@ import CoverageArea from "@/components/CoverageArea";
 import CtaBand from "@/components/CtaBand";
 import RelatedGuides from "@/components/RelatedGuides";
 import { siteConfig } from "@/data/site";
+import { productRanges } from "@/data/productRanges";
 
 export const metadata: Metadata = {
   title: "Kitchen Supply in Cheshunt & Hertfordshire",
@@ -142,7 +143,54 @@ export default function KitchenSupplyPage() {
         </Container>
       </section>
 
-      <section className="bg-paper">
+      {productRanges.length > 0 && (
+        <section className="bg-paper">
+          <Container className="py-16 sm:py-20">
+            <SectionHeading
+              eyebrow="Our Ranges"
+              title="Kitchens We Supply"
+              subtitle="A selection of the ranges, colours and finishes available — ask us about any style you don't see here."
+            />
+            <div className="mt-12 space-y-16">
+              {productRanges.map((product, i) => (
+                <div
+                  key={product.name}
+                  className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16"
+                >
+                  <div className={i % 2 === 1 ? "lg:order-2" : ""}>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={product.image}
+                      alt={product.alt}
+                      loading="lazy"
+                      decoding="async"
+                      className="h-auto w-full rounded-sm object-cover shadow-[0_16px_40px_-16px_rgba(20,20,26,0.35)]"
+                    />
+                  </div>
+                  <div className={i % 2 === 1 ? "lg:order-1" : ""}>
+                    <h3 className="font-display text-2xl font-bold uppercase tracking-tight text-ink sm:text-3xl">
+                      {product.name}
+                    </h3>
+                    <p className="mt-4 text-base leading-relaxed text-slate sm:text-lg">
+                      {product.description}
+                    </p>
+                    <div className="mt-6">
+                      <Button
+                        href={`/contact?service=${encodeURIComponent(SERVICE_LABEL)}&range=${encodeURIComponent(product.name)}`}
+                        variant="primary"
+                      >
+                        Ask About This Range
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </Container>
+        </section>
+      )}
+
+      <section className="bg-chalk">
         <Container className="py-16 sm:py-20">
           <SectionHeading
             eyebrow="Why Zebra Kitchens"
@@ -155,7 +203,7 @@ export default function KitchenSupplyPage() {
         </Container>
       </section>
 
-      <section className="bg-chalk">
+      <section className="bg-paper">
         <Container className="py-16 sm:py-20">
           <SectionHeading
             eyebrow="How It Works"
