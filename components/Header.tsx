@@ -19,7 +19,7 @@ export default function Header() {
       <Container className="flex h-18 items-center justify-between py-3">
         <Logo />
 
-        <nav className="hidden lg:flex items-center gap-8 ml-10" aria-label="Primary">
+        <nav className="hidden min-[1360px]:flex items-center gap-5 ml-6" aria-label="Primary">
           {navLinks.map((link) => {
             const active = pathname === link.href;
             return (
@@ -37,27 +37,17 @@ export default function Header() {
           })}
         </nav>
 
-        <div className="hidden lg:flex items-center gap-5">
-          <a
-            href={siteConfig.facebookUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Follow Zebra Kitchens on Facebook (opens in a new tab)"
-            title="Zebra Kitchens on Facebook"
-            className="text-paper/70 hover:text-accent transition-colors"
-          >
-            <FacebookIcon className="size-5" />
-          </a>
+        <div className="hidden min-[1360px]:flex items-center gap-4 shrink-0">
           <a
             href={siteConfig.phoneHref}
-            className="flex items-center gap-2 text-sm font-semibold text-paper hover:text-accent transition-colors"
+            className="flex items-center gap-1.5 text-sm font-semibold text-paper hover:text-accent transition-colors whitespace-nowrap"
           >
             <Phone className="size-4" strokeWidth={1.75} aria-hidden="true" />
             {siteConfig.phoneDisplay}
           </a>
           <Link
             href="/contact"
-            className="rounded-sm bg-accent px-5 py-2.5 text-sm font-semibold text-paper hover:bg-accent-dark transition-colors"
+            className="rounded-sm bg-accent px-4 py-2.5 text-sm font-semibold text-paper hover:bg-accent-dark transition-colors whitespace-nowrap"
           >
             Get a Free Quote
           </Link>
@@ -65,7 +55,7 @@ export default function Header() {
 
         <button
           type="button"
-          className="lg:hidden text-paper p-2 -mr-2"
+          className="min-[1360px]:hidden text-paper p-2 -mr-2"
           aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
@@ -81,7 +71,7 @@ export default function Header() {
       <SwatchStrip />
 
       {open && (
-        <div className="lg:hidden border-t border-paper/10 bg-ink">
+        <div className="min-[1360px]:hidden border-t border-paper/10 bg-ink">
           <Container className="flex flex-col py-4">
             <nav className="flex flex-col" aria-label="Mobile">
               {navLinks.map((link) => {
