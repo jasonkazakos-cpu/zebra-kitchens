@@ -101,7 +101,7 @@ export default function KitchenDesignPage() {
               Kitchen Design
             </p>
             <h1 className="mt-4 font-display text-4xl font-bold uppercase leading-[0.95] tracking-tight text-paper sm:text-5xl">
-              Kitchen Design Consultations in Hertfordshire
+              Kitchen Design Consultations in Hertfordshire & North London
             </h1>
             <p className="mt-6 max-w-md text-base leading-relaxed text-paper/75 sm:text-lg">
               A measured survey and a layout that works for how you actually
