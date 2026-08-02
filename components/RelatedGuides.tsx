@@ -36,7 +36,7 @@ export default function RelatedGuides({
               href={`/guides/${guide.slug}`}
               className="group flex flex-col rounded-sm border border-line bg-paper p-6 transition-shadow hover:border-accent hover:shadow-md"
             >
-              <p className="font-mono text-[10px] uppercase tracking-widest text-accent">
+              <p className="font-mono text-[10px] uppercase tracking-widest text-accent-dark">
                 {guide.readingTime} min read
               </p>
               <h3 className="mt-2 font-display text-base font-bold uppercase leading-tight tracking-tight text-ink group-hover:text-accent-dark">

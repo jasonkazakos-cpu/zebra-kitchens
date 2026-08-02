@@ -155,7 +155,7 @@ export default async function ServiceLocationPage({ params }: Props) {
         <div
           className="pointer-events-none absolute inset-0"
           aria-hidden="true"
-          style={{ background: "radial-gradient(circle at 80% 10%, rgba(194,69,46,0.2), transparent 55%)" }}
+          style={{ background: "radial-gradient(circle at 80% 10%, rgba(95,114,89,0.22), transparent 55%)" }}
         />
         <Container className="relative py-16 sm:py-20 lg:py-24">
           <p className="flex items-center gap-2 font-mono text-xs uppercase tracking-[0.2em] text-accent">
@@ -171,7 +171,7 @@ export default async function ServiceLocationPage({ params }: Props) {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Link
               href={quoteHref}
-              className="inline-block rounded-sm bg-accent px-8 py-3.5 text-center font-mono text-sm font-bold uppercase tracking-widest text-paper transition-opacity hover:opacity-90"
+              className="inline-block rounded-sm bg-accent-dark px-8 py-3.5 text-center font-mono text-sm font-bold uppercase tracking-widest text-paper transition-opacity hover:opacity-90"
             >
               Get a Free Quote
             </Link>
@@ -190,7 +190,7 @@ export default async function ServiceLocationPage({ params }: Props) {
         <Container className="py-16 sm:py-20">
           <div className="lg:grid lg:grid-cols-[1fr_360px] lg:gap-16">
             <div>
-              <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent">{svc.title} in {loc.name}</p>
+              <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent-dark">{svc.title} in {loc.name}</p>
               <h2 className="mt-3 font-display text-3xl font-bold uppercase leading-tight tracking-tight text-ink sm:text-4xl">
                 {svc.title} Services in {loc.name}
               </h2>
@@ -201,7 +201,7 @@ export default async function ServiceLocationPage({ params }: Props) {
                 <ul className="mt-8 grid gap-3 sm:grid-cols-2">
                   {(svc.bullets ?? []).map((b) => (
                     <li key={b} className="flex items-start gap-2.5 text-sm text-slate">
-                      <CheckCircle className="mt-0.5 size-4 shrink-0 text-accent" strokeWidth={1.75} aria-hidden="true" />
+                      <CheckCircle className="mt-0.5 size-4 shrink-0 text-accent-dark" strokeWidth={1.75} aria-hidden="true" />
                       {b}
                     </li>
                   ))}
@@ -228,7 +228,7 @@ export default async function ServiceLocationPage({ params }: Props) {
                 </p>
                 <Link
                   href={quoteHref}
-                  className="mt-5 block rounded-sm bg-accent px-6 py-3 text-center font-mono text-xs font-bold uppercase tracking-widest text-paper transition-opacity hover:opacity-90"
+                  className="mt-5 block rounded-sm bg-accent-dark px-6 py-3 text-center font-mono text-xs font-bold uppercase tracking-widest text-paper transition-opacity hover:opacity-90"
                 >
                   Request a Free Quote
                 </Link>
@@ -294,7 +294,7 @@ export default async function ServiceLocationPage({ params }: Props) {
               { quote: "Good honest pricing, no pressure and a great result. Will definitely use again.", name: "Local customer", service: svc.title },
             ].map((t, i) => (
               <figure key={i} className="flex flex-col rounded-sm border border-line bg-chalk p-6">
-                <div className="flex gap-0.5 text-accent" aria-hidden="true">
+                <div className="flex gap-0.5 text-accent-dark" aria-hidden="true">
                   {Array.from({ length: 5 }).map((_, s) => (
                     <Star key={s} className="size-4 fill-current" strokeWidth={0} />
                   ))}

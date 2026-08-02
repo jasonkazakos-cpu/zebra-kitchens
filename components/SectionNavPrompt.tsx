@@ -21,7 +21,7 @@ export default function SectionNavPrompt({
     <section className="border-y border-line bg-chalk">
       <Container className="flex flex-col items-center gap-4 py-8 text-center sm:flex-row sm:justify-between sm:text-left">
         <div>
-          <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent">
+          <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent-dark">
             {heading}
           </p>
           <p className="mt-1.5 text-sm text-slate">{description}</p>

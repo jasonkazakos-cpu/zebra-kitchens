@@ -2,17 +2,17 @@
 
 @theme {
   /* Brand neutrals */
-  --color-ink: #14141a;
-  --color-ink-soft: #2a2a31;
-  --color-paper: #ffffff;
-  --color-chalk: #f5f4f1;
-  --color-line: #e1ddd4;
-  --color-slate: #6b6a66;
+  --color-ink: #1f2328;
+  --color-ink-soft: #2c3137;
+  --color-paper: #f7f7f5;
+  --color-chalk: #ecefe8;
+  --color-line: #dde2d8;
+  --color-slate: #5b615c;
 
-  /* Single brand accent, per the brief: black, white and an accent colour */
-  --color-accent: #f2660b;
-  --color-accent-dark: #c94e04;
-  --color-accent-soft: #fde7d6;
+  /* Sage accent — muted, high-end tone in place of the original orange */
+  --color-accent: #8fa58a;
+  --color-accent-dark: #5f7259;
+  --color-accent-soft: #c8d4c4;
 
   /* Fonts */
   --font-display: var(--font-display-raw), "Arial Narrow", Arial, sans-serif;

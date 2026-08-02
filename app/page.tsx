@@ -29,7 +29,7 @@ export default function Home() {
           className="pointer-events-none absolute inset-0"
           style={{
             background:
-              "radial-gradient(circle at 15% 15%, rgba(242,102,11,0.16), transparent 55%)",
+              "radial-gradient(circle at 15% 15%, rgba(143,165,138,0.18), transparent 55%)",
           }}
           aria-hidden="true"
         />
@@ -42,13 +42,13 @@ export default function Home() {
               Black &amp; White Prices.
               <br />
               <span className="inline-flex flex-wrap gap-x-3">
-                <span className="underline decoration-4 underline-offset-8" style={{ textDecorationColor: "#2B5FAD" }}>
+                <span className="underline decoration-4 underline-offset-8" style={{ textDecorationColor: "#8FA58A" }}>
                   Lots
                 </span>
-                <span className="underline decoration-4 underline-offset-8" style={{ textDecorationColor: "#0E9594" }}>
+                <span className="underline decoration-4 underline-offset-8" style={{ textDecorationColor: "#5F7259" }}>
                   Of
                 </span>
-                <span className="underline decoration-4 underline-offset-8" style={{ textDecorationColor: "#F2660B" }}>
+                <span className="underline decoration-4 underline-offset-8" style={{ textDecorationColor: "#C8D4C4" }}>
                   Colours.
                 </span>
               </span>
@@ -145,13 +145,13 @@ export default function Home() {
                 decoding="async"
                 width={900}
                 height={1200}
-                className="h-auto w-full max-w-sm rounded-sm object-cover shadow-[0_16px_40px_-16px_rgba(20,20,26,0.35)] sm:max-w-xs lg:max-w-sm"
+                className="h-auto w-full max-w-sm rounded-sm object-cover shadow-[0_16px_40px_-16px_rgba(31,35,40,0.35)] sm:max-w-xs lg:max-w-sm"
               />
             </div>
 
             {/* Content */}
             <div>
-              <p className="flex items-center gap-2 font-mono text-xs uppercase tracking-[0.2em] text-accent">
+              <p className="flex items-center gap-2 font-mono text-xs uppercase tracking-[0.2em] text-accent-dark">
                 <span className="h-px w-8 bg-accent" aria-hidden="true" />
                 Meet The Owner
               </p>
@@ -182,7 +182,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <p className="mt-5 font-display text-lg font-bold uppercase tracking-tight text-accent">
+              <p className="mt-5 font-display text-lg font-bold uppercase tracking-tight text-accent-dark">
                 &ldquo;{siteConfig.motto}&rdquo;
               </p>
 

@@ -15,18 +15,18 @@ export default function OpengraphImage() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-          backgroundColor: "#14141a",
+          backgroundColor: "#1f2328",
           padding: "80px",
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: 20 }}>
-          <div style={{ display: "flex", width: 64, height: 10, backgroundColor: "#f2660b" }} />
+          <div style={{ display: "flex", width: 64, height: 10, backgroundColor: "#8fa58a" }} />
           <div
             style={{
               fontSize: 28,
               textTransform: "uppercase",
               letterSpacing: 6,
-              color: "#f2660b",
+              color: "#8fa58a",
               fontWeight: 700,
             }}
           >
@@ -46,7 +46,7 @@ export default function OpengraphImage() {
           }}
         >
           <span>Black &amp; White Prices.</span>
-          <span style={{ color: "#f2660b" }}>Lots Of Colours.</span>
+          <span style={{ color: "#8fa58a" }}>Lots Of Colours.</span>
         </div>
         <div
           style={{
@@ -59,10 +59,10 @@ export default function OpengraphImage() {
           Kitchen Design, Supply &amp; Installation — Cheshunt &amp; Hertfordshire
         </div>
         <div style={{ display: "flex", width: "100%", height: 10, marginTop: 64 }}>
-          <div style={{ flex: 1, backgroundColor: "#2b5fad" }} />
-          <div style={{ flex: 1, backgroundColor: "#0e9594" }} />
-          <div style={{ flex: 1, backgroundColor: "#f2660b" }} />
-          <div style={{ flex: 1, backgroundColor: "#8456a8" }} />
+          <div style={{ flex: 1, backgroundColor: "#c8d4c4" }} />
+          <div style={{ flex: 1, backgroundColor: "#8fa58a" }} />
+          <div style={{ flex: 1, backgroundColor: "#5f7259" }} />
+          <div style={{ flex: 1, backgroundColor: "#2c3137" }} />
         </div>
       </div>
     ),

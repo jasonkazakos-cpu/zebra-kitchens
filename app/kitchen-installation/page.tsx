@@ -153,7 +153,7 @@ export default function KitchenInstallationPage() {
           className="pointer-events-none absolute inset-0"
           style={{
             background:
-              "radial-gradient(circle at 15% 15%, rgba(242,102,11,0.16), transparent 55%)",
+              "radial-gradient(circle at 15% 15%, rgba(143,165,138,0.18), transparent 55%)",
           }}
           aria-hidden="true"
         />
@@ -187,7 +187,7 @@ export default function KitchenInstallationPage() {
 
       <section className="border-y border-line bg-chalk">
         <Container className="py-10">
-          <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent">Any Supplier</p>
+          <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent-dark">Any Supplier</p>
           <h2 className="mt-2 font-display text-xl font-bold uppercase tracking-tight text-ink sm:text-2xl">
             Kitchens We Install
           </h2>

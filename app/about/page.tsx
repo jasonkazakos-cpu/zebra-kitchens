@@ -48,7 +48,7 @@ export default function AboutPage() {
       <section className="bg-paper">
         <Container className="grid items-center gap-12 py-16 sm:py-20 lg:grid-cols-2 lg:gap-16">
           <div>
-            <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent">
+            <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent-dark">
               Our Story
             </p>
             <h2 className="mt-3 font-display text-3xl font-bold uppercase leading-[0.95] tracking-tight text-ink sm:text-4xl">

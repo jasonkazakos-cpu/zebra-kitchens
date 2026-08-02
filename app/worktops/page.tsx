@@ -92,7 +92,7 @@ export default function WorktopsPage() {
           className="pointer-events-none absolute inset-0"
           style={{
             background:
-              "radial-gradient(circle at 15% 15%, rgba(132,86,168,0.16), transparent 55%)",
+              "radial-gradient(circle at 15% 15%, rgba(95,114,89,0.2), transparent 55%)",
           }}
           aria-hidden="true"
         />

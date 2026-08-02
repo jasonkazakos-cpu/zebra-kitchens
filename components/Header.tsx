@@ -47,7 +47,7 @@ export default function Header() {
           </a>
           <Link
             href="/contact"
-            className="rounded-sm bg-accent px-4 py-2.5 text-sm font-semibold text-paper hover:bg-accent-dark transition-colors whitespace-nowrap"
+            className="rounded-sm bg-accent-dark px-4 py-2.5 text-sm font-semibold text-paper hover:bg-ink-soft transition-colors whitespace-nowrap"
           >
             Get a Free Quote
           </Link>
@@ -112,7 +112,7 @@ export default function Header() {
             <Link
               href="/contact"
               onClick={() => setOpen(false)}
-              className="mt-4 rounded-sm bg-accent px-5 py-3 text-center text-sm font-semibold text-paper"
+              className="mt-4 rounded-sm bg-accent-dark px-5 py-3 text-center text-sm font-semibold text-paper"
             >
               Get a Free Quote
             </Link>

@@ -57,7 +57,7 @@ export default function PrivacyPolicyPage() {
               </p>
               <p className="mt-3">
                 For any privacy-related enquiries, please contact us via the{" "}
-                <Link href="/contact" className="font-medium text-accent underline-offset-4 hover:underline">
+                <Link href="/contact" className="font-medium text-accent-dark underline-offset-4 hover:underline">
                   Contact page
                 </Link>
                 .
@@ -124,7 +124,7 @@ export default function PrivacyPolicyPage() {
                 Our website uses cookies for essential site functionality,
                 analytics and remembering your preferences. For full details
                 of the cookies we use and how to control them, see our{" "}
-                <Link href="/cookie-policy" className="font-medium text-accent underline-offset-4 hover:underline">
+                <Link href="/cookie-policy" className="font-medium text-accent-dark underline-offset-4 hover:underline">
                   Cookie Policy
                 </Link>
                 .
@@ -189,7 +189,7 @@ export default function PrivacyPolicyPage() {
               </ul>
               <p className="mt-3">
                 Requests can be made through our{" "}
-                <Link href="/contact" className="font-medium text-accent underline-offset-4 hover:underline">
+                <Link href="/contact" className="font-medium text-accent-dark underline-offset-4 hover:underline">
                   Contact page
                 </Link>
                 .
@@ -203,7 +203,7 @@ export default function PrivacyPolicyPage() {
               <p className="mt-3">
                 If you have any questions about this Privacy Policy or your
                 personal data, please contact {siteConfig.name} through the{" "}
-                <Link href="/contact" className="font-medium text-accent underline-offset-4 hover:underline">
+                <Link href="/contact" className="font-medium text-accent-dark underline-offset-4 hover:underline">
                   website contact form
                 </Link>
                 .

@@ -51,7 +51,7 @@ export default function Testimonials({
             key={`${t.name}-${t.date}`}
             className="flex flex-col rounded-sm border border-line bg-paper p-6"
           >
-            <div className="flex gap-0.5 text-accent" aria-hidden="true">
+            <div className="flex gap-0.5 text-accent-dark" aria-hidden="true">
               {Array.from({ length: t.rating }).map((_, i) => (
                 <Star key={i} className="size-4 fill-current" strokeWidth={0} />
               ))}

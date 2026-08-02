@@ -277,11 +277,11 @@ const sections = [
         </p>
         <p className="mt-3">
           Please refer to the{" "}
-          <Link href="/privacy-policy" className="font-medium text-accent underline-offset-4 hover:underline">
+          <Link href="/privacy-policy" className="font-medium text-accent-dark underline-offset-4 hover:underline">
             Privacy Policy
           </Link>{" "}
           and{" "}
-          <Link href="/cookie-policy" className="font-medium text-accent underline-offset-4 hover:underline">
+          <Link href="/cookie-policy" className="font-medium text-accent-dark underline-offset-4 hover:underline">
             Cookie Policy
           </Link>{" "}
           pages for further information.
@@ -310,7 +310,7 @@ const sections = [
       <p className="mt-3">
         For questions regarding these Terms &amp; Conditions, please contact{" "}
         {siteConfig.name} using the{" "}
-        <Link href="/contact" className="font-medium text-accent underline-offset-4 hover:underline">
+        <Link href="/contact" className="font-medium text-accent-dark underline-offset-4 hover:underline">
           website contact page
         </Link>
         .

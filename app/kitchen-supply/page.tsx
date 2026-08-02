@@ -90,7 +90,7 @@ export default function KitchenSupplyPage() {
           className="pointer-events-none absolute inset-0"
           style={{
             background:
-              "radial-gradient(circle at 15% 15%, rgba(14,149,148,0.16), transparent 55%)",
+              "radial-gradient(circle at 15% 15%, rgba(200,212,196,0.2), transparent 55%)",
           }}
           aria-hidden="true"
         />
@@ -123,7 +123,7 @@ export default function KitchenSupplyPage() {
 
       <section className="border-y border-line bg-chalk">
         <Container className="py-10">
-          <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent">Any Style, Any Budget</p>
+          <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent-dark">Any Style, Any Budget</p>
           <h2 className="mt-2 font-display text-xl font-bold uppercase tracking-tight text-ink sm:text-2xl">
             Ranges We Supply
           </h2>
@@ -164,7 +164,7 @@ export default function KitchenSupplyPage() {
                       alt={product.alt}
                       loading="lazy"
                       decoding="async"
-                      className="h-auto w-full rounded-sm object-cover shadow-[0_16px_40px_-16px_rgba(20,20,26,0.35)]"
+                      className="h-auto w-full rounded-sm object-cover shadow-[0_16px_40px_-16px_rgba(31,35,40,0.35)]"
                     />
                   </div>
                   <div className={i % 2 === 1 ? "lg:order-1" : ""}>
