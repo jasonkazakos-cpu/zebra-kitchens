@@ -39,24 +39,17 @@ export default function Home() {
               {siteConfig.baseTown}, {siteConfig.county} &amp; Surrounding Areas
             </p>
             <h1 className="mt-4 font-display text-4xl font-bold uppercase leading-[0.95] tracking-tight text-paper sm:text-5xl lg:text-6xl">
-              Black &amp; White Prices.
+              Bespoke Kitchens.
               <br />
-              <span className="inline-flex flex-wrap gap-x-3">
-                <span className="underline decoration-4 underline-offset-8" style={{ textDecorationColor: "#8FA58A" }}>
-                  Lots
-                </span>
-                <span className="underline decoration-4 underline-offset-8" style={{ textDecorationColor: "#5F7259" }}>
-                  Of
-                </span>
-                <span className="underline decoration-4 underline-offset-8" style={{ textDecorationColor: "#C8D4C4" }}>
-                  Colours.
-                </span>
+              <span className="underline decoration-4 underline-offset-8" style={{ textDecorationColor: "#8FA58A" }}>
+                Priced In Black &amp; White.
               </span>
             </h1>
             <p className="mt-6 max-w-md text-base leading-relaxed text-paper/75 sm:text-lg">
-              Honest kitchen design, supply and installation from a tradesman
-              with {siteConfig.yearsTrading} years on the tools — every quote
-              agreed in writing before we start.
+              Considered kitchen design, premium supply and precision
+              installation — from a tradesman with {siteConfig.yearsTrading}{" "}
+              years on the tools, every quote agreed in writing before we
+              begin.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3">

@@ -45,8 +45,8 @@ export default function OpengraphImage() {
             flexDirection: "column",
           }}
         >
-          <span>Black &amp; White Prices.</span>
-          <span style={{ color: "#8fa58a" }}>Lots Of Colours.</span>
+          <span>Bespoke Kitchens.</span>
+          <span style={{ color: "#8fa58a" }}>Priced In Black &amp; White.</span>
         </div>
         <div
           style={{

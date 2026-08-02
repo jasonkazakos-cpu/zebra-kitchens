@@ -129,10 +129,7 @@ export default function Footer() {
       <SwatchStrip />
 
       <Container className="flex flex-col items-center gap-3 py-5 text-xs text-paper/55 sm:flex-row sm:justify-between">
-        <p>
-          &copy; {year} {siteConfig.name}. All rights reserved.{" "}
-          <span className="text-paper/40">Part of Zebra Trades.</span>
-        </p>
+        <p>&copy; {year} {siteConfig.name}. All rights reserved.</p>
         <div className="flex items-center gap-4">
           <Link href="/privacy-policy" className="hover:text-paper transition-colors">
             Privacy Policy
