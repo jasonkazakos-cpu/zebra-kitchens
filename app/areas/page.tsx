@@ -20,10 +20,10 @@ export default function AreasPage() {
         <div
           className="pointer-events-none absolute inset-0"
           aria-hidden="true"
-          style={{ background: "radial-gradient(circle at 75% 15%, rgba(194,69,46,0.18), transparent 55%)" }}
+          style={{ background: "radial-gradient(circle at 75% 15%, rgba(46,64,51,0.35), transparent 55%)" }}
         />
         <Container className="relative py-16 sm:py-20 lg:py-24">
-          <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent">Where We Work</p>
+          <p className="font-mono text-xs uppercase tracking-[0.2em] text-paper/70">Where We Work</p>
           <h1 className="mt-4 max-w-3xl font-display text-4xl font-bold uppercase leading-[0.95] tracking-tight text-paper sm:text-5xl lg:text-6xl">
             Areas We Cover Across Hertfordshire
           </h1>
@@ -82,7 +82,7 @@ export default function AreasPage() {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Link
               href="/contact"
-              className="inline-block rounded-sm bg-accent px-8 py-3.5 text-center font-mono text-sm font-bold uppercase tracking-widest text-paper transition-opacity hover:opacity-90"
+              className="inline-block rounded-sm bg-accent-dark px-8 py-3.5 text-center font-mono text-sm font-bold uppercase tracking-widest text-paper transition-opacity hover:opacity-90"
             >
               Get in Touch
             </Link>

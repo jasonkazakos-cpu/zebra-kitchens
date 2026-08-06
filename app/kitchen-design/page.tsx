@@ -91,17 +91,17 @@ export default function KitchenDesignPage() {
           className="pointer-events-none absolute inset-0"
           style={{
             background:
-              "radial-gradient(circle at 15% 15%, rgba(43,95,173,0.16), transparent 55%)",
+              "radial-gradient(circle at 15% 15%, rgba(46,64,51,0.35), transparent 55%)",
           }}
           aria-hidden="true"
         />
         <Container className="relative grid items-center gap-12 py-16 sm:py-20 lg:grid-cols-2 lg:gap-16">
           <div>
-            <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent">
+            <p className="font-mono text-xs uppercase tracking-[0.2em] text-paper/70">
               Kitchen Design
             </p>
             <h1 className="mt-4 font-display text-4xl font-bold uppercase leading-[0.95] tracking-tight text-paper sm:text-5xl">
-              Kitchen Design Consultations in Hertfordshire
+              Kitchen Design Consultations in Hertfordshire & North London
             </h1>
             <p className="mt-6 max-w-md text-base leading-relaxed text-paper/75 sm:text-lg">
               A measured survey and a layout that works for how you actually

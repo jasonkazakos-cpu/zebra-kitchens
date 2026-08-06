@@ -88,7 +88,7 @@ export default function GuidesGrid({ guides }: Props) {
             onClick={() => handleCategoryClick(cat.slug)}
             className={`rounded-sm border px-3 py-1.5 font-mono text-[10px] uppercase tracking-widest transition-colors ${
               activeCategory === cat.slug
-                ? "border-accent bg-accent text-paper"
+                ? "border-accent-dark bg-accent-dark text-paper"
                 : "border-line bg-paper text-slate hover:border-accent hover:text-ink"
             }`}
           >
@@ -111,7 +111,7 @@ export default function GuidesGrid({ guides }: Props) {
             <div className="text-center">
               <button
                 onClick={() => setVisible((v) => v + LOAD_MORE)}
-                className="rounded-sm border border-accent px-6 py-2.5 font-mono text-xs uppercase tracking-widest text-accent-dark transition-colors hover:bg-accent hover:text-paper"
+                className="rounded-sm border border-accent-dark px-6 py-2.5 font-mono text-xs uppercase tracking-widest text-accent-dark transition-colors hover:bg-accent-dark hover:text-paper"
               >
                 Load More
               </button>

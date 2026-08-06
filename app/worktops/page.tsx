@@ -92,13 +92,13 @@ export default function WorktopsPage() {
           className="pointer-events-none absolute inset-0"
           style={{
             background:
-              "radial-gradient(circle at 15% 15%, rgba(132,86,168,0.16), transparent 55%)",
+              "radial-gradient(circle at 15% 15%, rgba(46,64,51,0.35), transparent 55%)",
           }}
           aria-hidden="true"
         />
         <Container className="relative grid items-center gap-12 py-16 sm:py-20 lg:grid-cols-2 lg:gap-16">
           <div>
-            <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent">
+            <p className="font-mono text-xs uppercase tracking-[0.2em] text-paper/70">
               Worktops
             </p>
             <h1 className="mt-4 font-display text-4xl font-bold uppercase leading-[0.95] tracking-tight text-paper sm:text-5xl">

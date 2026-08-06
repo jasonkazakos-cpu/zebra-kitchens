@@ -84,7 +84,7 @@ export default async function GuidePage({ params }: Props) {
       {/* Hero */}
       <section className="bg-ink">
         <Container className="py-12 sm:py-16">
-          <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent">
+          <p className="font-mono text-xs uppercase tracking-[0.2em] text-paper/70">
             {category?.label ?? guide.category}
           </p>
           <h1 className="mt-3 max-w-3xl font-display text-3xl font-bold uppercase leading-tight tracking-tight text-paper sm:text-4xl">
@@ -154,7 +154,7 @@ export default async function GuidePage({ params }: Props) {
                   <p className="mt-1 text-sm text-slate">We cover {siteConfig.baseTown} and {siteConfig.county}.</p>
                   <Link
                     href="/contact"
-                    className="mt-3 block rounded-sm bg-accent px-4 py-2 text-center font-mono text-xs uppercase tracking-widest text-paper transition-opacity hover:opacity-90"
+                    className="mt-3 block rounded-sm bg-accent-dark px-4 py-2 text-center font-mono text-xs uppercase tracking-widest text-paper transition-opacity hover:opacity-90"
                   >
                     Get a Free Quote
                   </Link>
@@ -169,7 +169,7 @@ export default async function GuidePage({ params }: Props) {
       {related.length > 0 && (
         <section className="bg-chalk">
           <Container className="py-12 sm:py-16">
-            <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent">Read Next</p>
+            <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent-dark">Read Next</p>
             <h2 className="mt-2 font-display text-2xl font-bold uppercase tracking-tight text-ink sm:text-3xl">
               Related Guides
             </h2>

@@ -47,7 +47,7 @@ export default function CookiePolicyPage() {
               <p className="mt-3">
                 This Cookie Policy applies to the {siteConfig.name} website.
                 For any cookie-related enquiries, please contact us via the{" "}
-                <Link href="/contact" className="font-medium text-accent underline-offset-4 hover:underline">
+                <Link href="/contact" className="font-medium text-accent-dark underline-offset-4 hover:underline">
                   Contact page
                 </Link>
                 .
@@ -126,12 +126,12 @@ export default function CookiePolicyPage() {
               </h2>
               <p className="mt-3">
                 For more on how we handle personal data generally, see our{" "}
-                <Link href="/privacy-policy" className="font-medium text-accent underline-offset-4 hover:underline">
+                <Link href="/privacy-policy" className="font-medium text-accent-dark underline-offset-4 hover:underline">
                   Privacy Policy
                 </Link>
                 . If you have any questions about this Cookie Policy, please
                 contact {siteConfig.name} through the{" "}
-                <Link href="/contact" className="font-medium text-accent underline-offset-4 hover:underline">
+                <Link href="/contact" className="font-medium text-accent-dark underline-offset-4 hover:underline">
                   website contact form
                 </Link>
                 .

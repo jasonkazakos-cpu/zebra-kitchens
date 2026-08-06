@@ -18,7 +18,7 @@ export default function StatStrip() {
               i > 0 ? "border-t sm:border-t-0 sm:border-l" : ""
             } sm:px-6`}
           >
-            <span className="font-display text-3xl font-bold text-accent">
+            <span className="font-display text-3xl font-bold text-paper">
               {stat.value}
             </span>
             <span className="text-xs uppercase tracking-wide text-paper/70">

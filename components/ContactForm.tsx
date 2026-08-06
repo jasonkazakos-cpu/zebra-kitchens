@@ -59,7 +59,7 @@ export default function ContactForm() {
   if (formspreeState.succeeded) {
     return (
       <div className="rounded-sm border border-line bg-chalk p-8 text-center">
-        <CheckCircle2 className="mx-auto size-10 text-accent" strokeWidth={1.5} aria-hidden="true" />
+        <CheckCircle2 className="mx-auto size-10 text-accent-dark" strokeWidth={1.5} aria-hidden="true" />
         <h3 className="mt-4 font-display text-xl font-bold uppercase tracking-tight text-ink">
           Thanks, {form.name.split(" ")[0]}
         </h3>
@@ -159,18 +159,18 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={formspreeState.submitting}
-        className="w-full rounded-sm bg-accent px-6 py-3.5 font-semibold text-paper transition-colors hover:bg-accent-dark disabled:cursor-not-allowed disabled:opacity-60 sm:w-auto"
+        className="w-full rounded-sm bg-accent-dark px-6 py-3.5 font-semibold text-paper transition-colors hover:bg-ink-soft disabled:cursor-not-allowed disabled:opacity-60 sm:w-auto"
       >
         {formspreeState.submitting ? "Sending..." : "Send Enquiry"}
       </button>
 
       <p className="text-xs text-slate">
         By submitting this form, you agree to our{" "}
-        <Link href="/privacy-policy" className="font-medium text-accent underline-offset-4 hover:underline">
+        <Link href="/privacy-policy" className="font-medium text-accent-dark underline-offset-4 hover:underline">
           Privacy Policy
         </Link>{" "}
         and{" "}
-        <Link href="/terms-and-conditions" className="font-medium text-accent underline-offset-4 hover:underline">
+        <Link href="/terms-and-conditions" className="font-medium text-accent-dark underline-offset-4 hover:underline">
           Terms &amp; Conditions
         </Link>
         .
@@ -195,7 +195,7 @@ function Field({
     <label className="block">
       <span className="font-mono text-xs uppercase tracking-wide text-slate">
         {label}
-        {required && <span className="text-accent"> *</span>}
+        {required && <span className="text-accent-dark"> *</span>}
       </span>
       {children}
     </label>

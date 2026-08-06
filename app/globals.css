@@ -1,18 +1,18 @@
 @import "tailwindcss";
 
 @theme {
-  /* Brand neutrals */
-  --color-ink: #14141a;
-  --color-ink-soft: #2a2a31;
-  --color-paper: #ffffff;
-  --color-chalk: #f5f4f1;
-  --color-line: #e1ddd4;
-  --color-slate: #6b6a66;
+  /* Brand neutrals — deep forest green in place of black, warm stone neutrals */
+  --color-ink: #22332b;
+  --color-ink-soft: #2e4033;
+  --color-paper: #faf9f6;
+  --color-chalk: #f0eee8;
+  --color-line: #e1ded6;
+  --color-slate: #5c5952;
 
-  /* Single brand accent, per the brief: black, white and an accent colour */
-  --color-accent: #f2660b;
-  --color-accent-dark: #c94e04;
-  --color-accent-soft: #fde7d6;
+  /* Near-black accent — used on light backgrounds only (buttons, prices, icons) */
+  --color-accent: #1a1a1a;
+  --color-accent-dark: #000000;
+  --color-accent-soft: #e8e6de;
 
   /* Fonts */
   --font-display: var(--font-display-raw), "Arial Narrow", Arial, sans-serif;
@@ -48,7 +48,7 @@
   }
 
   ::selection {
-    background: var(--color-accent);
+    background: var(--color-ink);
     color: var(--color-paper);
   }
 }

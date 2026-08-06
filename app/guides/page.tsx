@@ -30,11 +30,11 @@ export default function GuidesPage() {
       <section className="relative overflow-hidden bg-ink">
         <div
           className="pointer-events-none absolute inset-0"
-          style={{ background: "radial-gradient(circle at 80% 15%, rgba(47,155,214,0.16), transparent 55%)" }}
+          style={{ background: "radial-gradient(circle at 80% 15%, rgba(46,64,51,0.35), transparent 55%)" }}
           aria-hidden="true"
         />
         <Container className="relative py-16 sm:py-20">
-          <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent">
+          <p className="font-mono text-xs uppercase tracking-[0.2em] text-paper/70">
             Advice &amp; Guides
           </p>
           <h1 className="mt-4 max-w-2xl font-display text-4xl font-bold uppercase leading-[0.95] tracking-tight text-paper sm:text-5xl">

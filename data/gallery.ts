@@ -30,7 +30,6 @@ export const galleryImages: GalleryImage[] = [
   { src: "/images/kitchen-gallery/solid-oak-kitchen-broxbourne.webp", alt: "Solid oak kitchen installation in Broxbourne", caption: "Solid Oak Kitchen — Broxbourne" },
   { src: "/images/kitchen-gallery/solid-shaker-kitchen-broxbourne.webp", alt: "Solid shaker kitchen installation in Broxbourne", caption: "Solid Shaker Kitchen — Broxbourne" },
   { src: "/images/kitchen-design/cambridge-indigo-kitchen.webp", alt: "Cambridge indigo kitchen design", caption: "Cambridge Indigo Kitchen" },
-  { src: "/images/kitchen-design/stratto-vero-white-kitchen.webp", alt: "Stratto Vero white kitchen design", caption: "Stratto Vero White Kitchen" },
   { src: "/images/kitchen-design/stratto-vero-white-rosegold-kitchen.webp", alt: "Stratto Vero white and rose gold kitchen design", caption: "Stratto Vero White & Rose Gold" },
   { src: "/images/kitchen-design/vivo-gloss-ivory-vero-cameo-kitchen.webp", alt: "Vivo gloss ivory Vero Cameo kitchen design", caption: "Vivo Gloss Ivory Cameo" },
   { src: "/images/kitchen-design/vivo-gloss-vero-dustgrey-kitchen.webp", alt: "Vivo gloss Vero dust grey kitchen design", caption: "Vivo Gloss Dust Grey" },

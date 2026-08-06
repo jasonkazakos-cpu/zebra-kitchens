@@ -13,7 +13,8 @@ export default function SectionHeading({
   tone?: Tone;
   align?: "left" | "center";
 }) {
-  const eyebrowColor = tone === "dark" ? "text-accent" : "text-accent";
+  const eyebrowColor = tone === "dark" ? "text-accent-dark" : "text-paper/70";
+  const ruleColor = tone === "dark" ? "bg-accent-dark" : "bg-paper/70";
   const titleColor = tone === "dark" ? "text-ink" : "text-paper";
   const subtitleColor = tone === "dark" ? "text-slate" : "text-paper/75";
   const alignment = align === "center" ? "text-center mx-auto" : "text-left";
@@ -23,7 +24,7 @@ export default function SectionHeading({
     <div className={`max-w-2xl ${alignment}`}>
       {eyebrow && (
         <div className={`mb-4 flex items-center gap-2.5 ${align === "center" ? "justify-center" : ""}`}>
-          <span className={`h-px w-8 bg-accent ${ruleAlignment}`} aria-hidden="true" />
+          <span className={`h-px w-8 ${ruleColor} ${ruleAlignment}`} aria-hidden="true" />
           <p className={`font-mono text-xs uppercase tracking-[0.2em] ${eyebrowColor}`}>
             {eyebrow}
           </p>

@@ -26,7 +26,7 @@ export default function PackageCard({ pkg }: { pkg: Package }) {
       <h3 className={`font-display text-2xl font-bold uppercase tracking-tight text-ink ${pkg.duration ? "mt-5" : ""}`}>
         {pkg.name}
       </h3>
-      <p className="mt-1 font-display text-3xl font-bold text-accent">
+      <p className="mt-1 font-display text-3xl font-bold text-accent-dark">
         {pkg.price}
       </p>
       {pkg.size && (
@@ -53,7 +53,7 @@ export default function PackageCard({ pkg }: { pkg: Package }) {
             {pkg.features.map((feature) => (
               <li key={feature} className="flex items-start gap-2.5 text-sm text-ink-soft">
                 <CheckCircle2
-                  className="mt-0.5 size-4 shrink-0 text-accent"
+                  className="mt-0.5 size-4 shrink-0 text-accent-dark"
                   strokeWidth={1.75}
                   aria-hidden="true"
                 />

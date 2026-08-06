@@ -1,7 +1,7 @@
 // Central place for business details used across the site.
 export const siteConfig = {
   name: "Zebra Kitchens",
-  motto: "Black & White Prices. Lots of Colours.",
+  motto: "Bespoke Kitchens. Fixed-Price Guarantee.",
   // TODO: confirm real contact details, socials and review links for Zebra Kitchens
   phoneDisplay: "07872 121425",
   phoneHref: "tel:+447872121425",

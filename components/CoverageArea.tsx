@@ -70,7 +70,7 @@ export default function CoverageArea({
             ))}
           </svg>
 
-          <div className="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center rounded-full bg-ink px-3 py-3 text-center shadow-[0_12px_30px_-10px_rgba(20,20,26,0.45)] sm:px-5 sm:py-5">
+          <div className="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center rounded-full bg-ink px-3 py-3 text-center shadow-[0_12px_30px_-10px_rgba(34,51,43,0.45)] sm:px-5 sm:py-5">
             <span className="font-display text-sm font-bold uppercase leading-tight tracking-tight text-paper sm:text-lg">
               {hub}
             </span>

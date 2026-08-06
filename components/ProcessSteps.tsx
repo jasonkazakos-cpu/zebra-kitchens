@@ -33,7 +33,7 @@ export default function ProcessSteps({ steps = defaultSteps }: { steps?: Step[] 
     <ol className={`grid gap-8 sm:grid-cols-2 ${cols}`}>
       {steps.map((step) => (
         <li key={step.number} className="relative pl-0">
-          <span className="font-mono text-sm text-accent">{step.number}</span>
+          <span className="font-mono text-sm text-accent-dark">{step.number}</span>
           <h3 className="mt-2 font-display text-lg font-bold uppercase tracking-tight text-ink">
             {step.title}
           </h3>
