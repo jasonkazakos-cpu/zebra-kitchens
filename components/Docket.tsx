@@ -6,7 +6,7 @@ export default function Docket() {
           Job Docket &middot; No. 00128
         </p>
         <p className="mt-2 font-display text-2xl font-bold uppercase tracking-tight leading-tight">
-          Black &amp; White Pricing
+          Fixed-Price Guarantee
         </p>
         <span
           className="absolute -left-3 bottom-[-9px] size-[18px] rounded-full bg-chalk"
@@ -35,7 +35,7 @@ export default function Docket() {
         </dl>
 
         <div
-          className="mt-6 inline-flex -rotate-6 items-center rounded-sm border-2 border-accent px-3 py-1.5 font-display text-sm font-bold uppercase tracking-[0.15em] text-accent"
+          className="mt-6 inline-flex -rotate-6 items-center rounded-sm border-2 border-paper/40 px-3 py-1.5 font-display text-sm font-bold uppercase tracking-[0.15em] text-paper"
           aria-hidden="true"
         >
           Fixed Price

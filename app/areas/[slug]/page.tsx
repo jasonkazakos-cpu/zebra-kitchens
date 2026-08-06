@@ -106,10 +106,10 @@ export default async function AreaPage({ params }: Props) {
         <div
           className="pointer-events-none absolute inset-0"
           aria-hidden="true"
-          style={{ background: "radial-gradient(circle at 80% 10%, rgba(95,114,89,0.22), transparent 55%)" }}
+          style={{ background: "radial-gradient(circle at 80% 10%, rgba(46,64,51,0.35), transparent 55%)" }}
         />
         <Container className="relative py-16 sm:py-20 lg:py-24">
-          <p className="flex items-center gap-2 font-mono text-xs uppercase tracking-[0.2em] text-accent">
+          <p className="flex items-center gap-2 font-mono text-xs uppercase tracking-[0.2em] text-paper/70">
             <MapPin className="size-3.5" aria-hidden="true" />
             {loc.county}
           </p>

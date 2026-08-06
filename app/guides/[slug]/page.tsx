@@ -84,7 +84,7 @@ export default async function GuidePage({ params }: Props) {
       {/* Hero */}
       <section className="bg-ink">
         <Container className="py-12 sm:py-16">
-          <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent">
+          <p className="font-mono text-xs uppercase tracking-[0.2em] text-paper/70">
             {category?.label ?? guide.category}
           </p>
           <h1 className="mt-3 max-w-3xl font-display text-3xl font-bold uppercase leading-tight tracking-tight text-paper sm:text-4xl">

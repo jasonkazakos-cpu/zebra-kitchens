@@ -20,10 +20,10 @@ export default function AreasPage() {
         <div
           className="pointer-events-none absolute inset-0"
           aria-hidden="true"
-          style={{ background: "radial-gradient(circle at 75% 15%, rgba(95,114,89,0.2), transparent 55%)" }}
+          style={{ background: "radial-gradient(circle at 75% 15%, rgba(46,64,51,0.35), transparent 55%)" }}
         />
         <Container className="relative py-16 sm:py-20 lg:py-24">
-          <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent">Where We Work</p>
+          <p className="font-mono text-xs uppercase tracking-[0.2em] text-paper/70">Where We Work</p>
           <h1 className="mt-4 max-w-3xl font-display text-4xl font-bold uppercase leading-[0.95] tracking-tight text-paper sm:text-5xl lg:text-6xl">
             Areas We Cover Across Hertfordshire
           </h1>

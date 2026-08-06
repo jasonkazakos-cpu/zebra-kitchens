@@ -29,7 +29,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             aria-label="Follow Zebra Kitchens on Facebook (opens in a new tab)"
             title="Zebra Kitchens on Facebook"
-            className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-paper/80 hover:text-accent transition-colors"
+            className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-paper/80 hover:text-paper transition-colors"
           >
             <FacebookIcon className="size-4" />
             Follow Zebra Kitchens on Facebook
@@ -39,7 +39,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Read Zebra Kitchens Google reviews (opens in a new tab)"
-            className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-paper/80 hover:text-accent transition-colors"
+            className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-paper/80 hover:text-paper transition-colors"
           >
             ⭐ Read Our Google Reviews
           </a>
@@ -48,7 +48,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Leave a Google review for Zebra Kitchens (opens in a new tab)"
-            className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-paper/80 hover:text-accent transition-colors"
+            className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-paper/80 hover:text-paper transition-colors"
           >
             ⭐ Leave Us a Google Review
           </a>
@@ -57,14 +57,14 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Read Zebra Kitchens reviews on Facebook (opens in a new tab)"
-            className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-paper/80 hover:text-accent transition-colors"
+            className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-paper/80 hover:text-paper transition-colors"
           >
             ⭐ Read Our Reviews on Facebook
           </a>
         </div>
 
         <div>
-          <h3 className="font-mono text-xs uppercase tracking-[0.2em] text-accent">
+          <h3 className="font-mono text-xs uppercase tracking-[0.2em] text-paper/60">
             Quick Links
           </h3>
           <ul className="mt-4 space-y-2.5">
@@ -82,7 +82,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h3 className="font-mono text-xs uppercase tracking-[0.2em] text-accent">
+          <h3 className="font-mono text-xs uppercase tracking-[0.2em] text-paper/60">
             Our Services
           </h3>
           <ul className="mt-4 space-y-2.5">
@@ -100,7 +100,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h3 className="font-mono text-xs uppercase tracking-[0.2em] text-accent">
+          <h3 className="font-mono text-xs uppercase tracking-[0.2em] text-paper/60">
             Get In Touch
           </h3>
           <ul className="mt-4 space-y-3 text-sm text-paper/80">

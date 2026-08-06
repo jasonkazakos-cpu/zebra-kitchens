@@ -42,14 +42,14 @@ export default function ContactPage() {
 
             <ul className="mt-6 space-y-4 text-sm">
               <li className="flex items-start gap-3">
-                <Phone className="mt-0.5 size-4 shrink-0 text-accent" strokeWidth={1.75} aria-hidden="true" />
-                <a href={siteConfig.phoneHref} className="hover:text-accent transition-colors">
+                <Phone className="mt-0.5 size-4 shrink-0 text-paper/60" strokeWidth={1.75} aria-hidden="true" />
+                <a href={siteConfig.phoneHref} className="hover:underline underline-offset-4 transition-colors">
                   {siteConfig.phoneDisplay}
                 </a>
               </li>
               <li className="flex items-start gap-3">
-                <Mail className="mt-0.5 size-4 shrink-0 text-accent" strokeWidth={1.75} aria-hidden="true" />
-                <a href={`mailto:${siteConfig.email}`} className="hover:text-accent transition-colors">
+                <Mail className="mt-0.5 size-4 shrink-0 text-paper/60" strokeWidth={1.75} aria-hidden="true" />
+                <a href={`mailto:${siteConfig.email}`} className="hover:underline underline-offset-4 transition-colors">
                   {siteConfig.email}
                 </a>
               </li>
@@ -90,7 +90,7 @@ export default function ContactPage() {
                   rel="noopener noreferrer"
                   aria-label="Follow Zebra Kitchens on Facebook (opens in a new tab)"
                   title="Zebra Kitchens on Facebook"
-                  className="inline-flex items-center gap-2 rounded-sm border border-paper/20 px-4 py-2.5 text-sm font-semibold text-paper hover:border-accent hover:text-accent transition-colors"
+                  className="inline-flex items-center gap-2 rounded-sm border border-paper/20 px-4 py-2.5 text-sm font-semibold text-paper hover:border-paper hover:bg-paper/10 transition-colors"
                 >
                   <FacebookIcon className="size-4" />
                   Facebook
@@ -100,7 +100,7 @@ export default function ContactPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Read Zebra Kitchens Google reviews (opens in a new tab)"
-                  className="inline-flex items-center gap-2 rounded-sm border border-paper/20 px-4 py-2.5 text-sm font-semibold text-paper hover:border-accent hover:text-accent transition-colors"
+                  className="inline-flex items-center gap-2 rounded-sm border border-paper/20 px-4 py-2.5 text-sm font-semibold text-paper hover:border-paper hover:bg-paper/10 transition-colors"
                 >
                   ⭐ Read Our Google Reviews
                 </a>
@@ -109,7 +109,7 @@ export default function ContactPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Leave a Google review for Zebra Kitchens (opens in a new tab)"
-                  className="inline-flex items-center gap-2 rounded-sm border border-paper/20 px-4 py-2.5 text-sm font-semibold text-paper hover:border-accent hover:text-accent transition-colors"
+                  className="inline-flex items-center gap-2 rounded-sm border border-paper/20 px-4 py-2.5 text-sm font-semibold text-paper hover:border-paper hover:bg-paper/10 transition-colors"
                 >
                   ⭐ Leave a Google Review
                 </a>
@@ -118,7 +118,7 @@ export default function ContactPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Read Zebra Kitchens reviews on Facebook (opens in a new tab)"
-                  className="inline-flex items-center gap-2 rounded-sm border border-paper/20 px-4 py-2.5 text-sm font-semibold text-paper hover:border-accent hover:text-accent transition-colors"
+                  className="inline-flex items-center gap-2 rounded-sm border border-paper/20 px-4 py-2.5 text-sm font-semibold text-paper hover:border-paper hover:bg-paper/10 transition-colors"
                 >
                   ⭐ Read Our Reviews
                 </a>

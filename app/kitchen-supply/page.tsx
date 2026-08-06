@@ -90,13 +90,13 @@ export default function KitchenSupplyPage() {
           className="pointer-events-none absolute inset-0"
           style={{
             background:
-              "radial-gradient(circle at 15% 15%, rgba(200,212,196,0.2), transparent 55%)",
+              "radial-gradient(circle at 15% 15%, rgba(46,64,51,0.35), transparent 55%)",
           }}
           aria-hidden="true"
         />
         <Container className="relative grid items-center gap-12 py-16 sm:py-20 lg:grid-cols-2 lg:gap-16">
           <div>
-            <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent">
+            <p className="font-mono text-xs uppercase tracking-[0.2em] text-paper/70">
               Kitchen Supply
             </p>
             <h1 className="mt-4 font-display text-4xl font-bold uppercase leading-[0.95] tracking-tight text-paper sm:text-5xl">
@@ -164,7 +164,7 @@ export default function KitchenSupplyPage() {
                       alt={product.alt}
                       loading="lazy"
                       decoding="async"
-                      className="h-auto w-full rounded-sm object-cover shadow-[0_16px_40px_-16px_rgba(31,35,40,0.35)]"
+                      className="h-auto w-full rounded-sm object-cover shadow-[0_16px_40px_-16px_rgba(34,51,43,0.35)]"
                     />
                   </div>
                   <div className={i % 2 === 1 ? "lg:order-1" : ""}>

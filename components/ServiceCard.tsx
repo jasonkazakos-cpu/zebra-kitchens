@@ -17,7 +17,7 @@ export default function ServiceCard({
     <article
       id={service.slug}
       style={{ "--card-accent": service.swatch } as React.CSSProperties}
-      className="group relative flex flex-col rounded-sm border border-line bg-paper p-6 transition-all duration-200 hover:-translate-y-1 hover:border-[var(--card-accent)] hover:shadow-[0_16px_32px_-16px_rgba(31,35,40,0.3)]"
+      className="group relative flex flex-col rounded-sm border border-line bg-paper p-6 transition-all duration-200 hover:-translate-y-1 hover:border-[var(--card-accent)] hover:shadow-[0_16px_32px_-16px_rgba(34,51,43,0.3)]"
     >
       <span
         className="absolute left-0 top-0 h-1.5 w-12 rounded-tl-sm"

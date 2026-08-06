@@ -29,20 +29,20 @@ export default function Home() {
           className="pointer-events-none absolute inset-0"
           style={{
             background:
-              "radial-gradient(circle at 15% 15%, rgba(143,165,138,0.18), transparent 55%)",
+              "radial-gradient(circle at 15% 15%, rgba(46,64,51,0.35), transparent 55%)",
           }}
           aria-hidden="true"
         />
         <Container className="relative grid items-center gap-12 py-16 sm:py-20 lg:grid-cols-2 lg:gap-16 lg:py-24">
           <div>
-            <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent">
+            <p className="font-mono text-xs uppercase tracking-[0.2em] text-paper/70">
               {siteConfig.baseTown}, {siteConfig.county} &amp; Surrounding Areas
             </p>
             <h1 className="mt-4 font-display text-4xl font-bold uppercase leading-[0.95] tracking-tight text-paper sm:text-5xl lg:text-6xl">
               Bespoke Kitchens.
               <br />
-              <span className="underline decoration-4 underline-offset-8" style={{ textDecorationColor: "#8FA58A" }}>
-                Priced In Black &amp; White.
+              <span className="underline decoration-4 underline-offset-8" style={{ textDecorationColor: "#E8E6DE" }}>
+                Fixed-Price Guarantee.
               </span>
             </h1>
             <p className="mt-6 max-w-md text-base leading-relaxed text-paper/75 sm:text-lg">
@@ -54,11 +54,11 @@ export default function Home() {
 
             <div className="mt-6 flex flex-wrap gap-3">
               <span className="inline-flex items-center gap-2 rounded-full border border-paper/20 bg-paper/5 px-4 py-2 font-mono text-xs uppercase tracking-wide text-paper/90">
-                <Wrench className="size-3.5 text-accent" aria-hidden="true" />
+                <Wrench className="size-3.5 text-paper/70" aria-hidden="true" />
                 {siteConfig.yearsTrading} Years Trade Experience
               </span>
               <span className="inline-flex items-center gap-2 rounded-full border border-paper/20 bg-paper/5 px-4 py-2 font-mono text-xs uppercase tracking-wide text-paper/90">
-                <Award className="size-3.5 text-accent" aria-hidden="true" />
+                <Award className="size-3.5 text-paper/70" aria-hidden="true" />
                 Established {siteConfig.yearsAsZebra} Years
               </span>
             </div>
@@ -138,7 +138,7 @@ export default function Home() {
                 decoding="async"
                 width={900}
                 height={1200}
-                className="h-auto w-full max-w-sm rounded-sm object-cover shadow-[0_16px_40px_-16px_rgba(31,35,40,0.35)] sm:max-w-xs lg:max-w-sm"
+                className="h-auto w-full max-w-sm rounded-sm object-cover shadow-[0_16px_40px_-16px_rgba(34,51,43,0.35)] sm:max-w-xs lg:max-w-sm"
               />
             </div>
 

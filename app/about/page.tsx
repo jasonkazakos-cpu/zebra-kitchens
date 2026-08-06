@@ -86,7 +86,7 @@ export default function AboutPage() {
         <Container className="py-16 sm:py-20">
           <SectionHeading
             eyebrow="Our Promise"
-            title="What 'Black & White Pricing' Means"
+            title="What Our Fixed-Price Guarantee Means"
             align="center"
           />
           <div className="mx-auto mt-10 grid max-w-4xl gap-8 sm:grid-cols-3">

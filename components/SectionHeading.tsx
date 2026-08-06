@@ -13,8 +13,8 @@ export default function SectionHeading({
   tone?: Tone;
   align?: "left" | "center";
 }) {
-  const eyebrowColor = tone === "dark" ? "text-accent-dark" : "text-accent";
-  const ruleColor = tone === "dark" ? "bg-accent-dark" : "bg-accent";
+  const eyebrowColor = tone === "dark" ? "text-accent-dark" : "text-paper/70";
+  const ruleColor = tone === "dark" ? "bg-accent-dark" : "bg-paper/70";
   const titleColor = tone === "dark" ? "text-ink" : "text-paper";
   const subtitleColor = tone === "dark" ? "text-slate" : "text-paper/75";
   const alignment = align === "center" ? "text-center mx-auto" : "text-left";

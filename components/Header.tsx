@@ -27,7 +27,7 @@ export default function Header() {
                 key={link.href}
                 href={link.href}
                 className={`font-medium text-sm uppercase tracking-wide transition-colors ${
-                  active ? "text-accent" : "text-paper/85 hover:text-paper"
+                  active ? "text-paper" : "text-paper/70 hover:text-paper"
                 }`}
                 aria-current={active ? "page" : undefined}
               >
@@ -40,7 +40,7 @@ export default function Header() {
         <div className="hidden min-[1360px]:flex items-center gap-4 shrink-0">
           <a
             href={siteConfig.phoneHref}
-            className="flex items-center gap-1.5 text-sm font-semibold text-paper hover:text-accent transition-colors whitespace-nowrap"
+            className="flex items-center gap-1.5 text-sm font-semibold text-paper hover:text-paper/70 transition-colors whitespace-nowrap"
           >
             <Phone className="size-4" strokeWidth={1.75} aria-hidden="true" />
             {siteConfig.phoneDisplay}
@@ -82,7 +82,7 @@ export default function Header() {
                     href={link.href}
                     onClick={() => setOpen(false)}
                     className={`py-3 border-b border-paper/10 font-medium uppercase tracking-wide text-sm ${
-                      active ? "text-accent" : "text-paper/90"
+                      active ? "text-paper" : "text-paper/70"
                     }`}
                     aria-current={active ? "page" : undefined}
                   >
@@ -104,7 +104,7 @@ export default function Header() {
               rel="noopener noreferrer"
               aria-label="Follow Zebra Kitchens on Facebook (opens in a new tab)"
               title="Zebra Kitchens on Facebook"
-              className="flex items-center gap-2 mt-4 text-paper/80 text-sm font-medium hover:text-accent transition-colors"
+              className="flex items-center gap-2 mt-4 text-paper/80 text-sm font-medium hover:text-paper transition-colors"
             >
               <FacebookIcon className="size-4" />
               Follow us on Facebook

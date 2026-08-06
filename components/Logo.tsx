@@ -4,10 +4,9 @@ import Link from "next/link";
 // below is rendered separately). Natural size 874x330 (≈2.65:1) — width/height
 // below preserve this aspect ratio so the mark is never stretched or cropped.
 // The source art is a neutral-grey zebra with an orange accent swoosh; the
-// filter below recolours that swoosh to the brand's sage accent (the grey
-// has ~0 saturation, so hue-rotate leaves it essentially untouched) so the
-// mark sits directly on the dark header/footer background without needing
-// a light backing plate.
+// filter below desaturates and lightens the whole mark to a soft off-white
+// grey so it reads cleanly against the dark forest-green header/footer
+// background without needing a light backing plate.
 const LOGO_IMAGE_SRC = "/zebra-logo.webp";
 const LOGO_WIDTH = 874;
 const LOGO_HEIGHT = 330;
@@ -28,7 +27,7 @@ export default function Logo({ tone = "light" }: { tone?: "light" | "dark" }) {
         width={LOGO_WIDTH}
         height={LOGO_HEIGHT}
         className="h-8 w-auto object-contain sm:h-10"
-        style={{ filter: "hue-rotate(88deg) saturate(0.55) brightness(1.1)" }}
+        style={{ filter: "grayscale(1) brightness(1.7)" }}
         aria-hidden="true"
       />
       <span
